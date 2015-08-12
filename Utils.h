@@ -15,9 +15,11 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+#define _GLIBCXX_USE_C99 1
 
 #ifndef UTILS_H_
 #define UTILS_H_
+
 
 #include "ThumbnailPixmapCache.h"
 #include "acceleration/AcceleratableOperations.h"

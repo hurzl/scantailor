@@ -18,6 +18,7 @@
 
 #ifndef ROUNDING_HASHER_H_
 #define ROUNDING_HASHER_H_
+#define _GLIBCXX_USE_C99 1
 
 #include "foundation_config.h"
 #include <QCryptographicHash>

@@ -328,7 +328,7 @@ ENDIF(NOT Boost_FOUND)
 INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIRS})
 LINK_DIRECTORIES(${Boost_LIBRARY_DIRS})
 
-SET(EXTRA_LIBS "")
+SET(EXTRA_LIBS "-lm /usr/local/lib/gcc48/libstdc++.a")
 
 IF(UNIX)
 	FindPthreads()
